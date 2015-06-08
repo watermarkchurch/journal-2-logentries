@@ -4,8 +4,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/kelseyhightower/journal-2-logentries/journal"
-	"github.com/kelseyhightower/journal-2-logentries/logentries"
+	"github.com/watermarkchurch/journal-2-logentries/journal"
+	"github.com/watermarkchurch/journal-2-logentries/logentries"
 )
 
 func main() {
