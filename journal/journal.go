@@ -21,7 +21,7 @@ func Follow(socket string) (<-chan []byte, error) {
 			},
 		},
 	}
-	req, err := http.NewRequest("GET", "http://journal/entries?follow", nil)
+	req, err := http.NewRequest("GET", "http://journal/entries?follow&boot", nil)
 	if err != nil {
 		return nil, err
 	}
